@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+   android:background="@drawable/creamc"
+  >
+
+ <EditText
+android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+android:hint="college eamcet code/name"
+ android:shape="rectangle"
+ android:singleLine="true"
+  android:layout_marginLeft="10px"
+   android:layout_marginTop="5px"
+  android:layout_marginRight="10px"
+/>
+<Button
+android:id="@+id/but"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH..."
+        android:layout_marginTop="5px"
+         android:layout_marginLeft="30px"
+  android:layout_marginRight="30px"
+         android:background="@drawable/bbrown_"
+     android:textColor="#ffffff"
+/>
+
+ <ListView
+        android:id="@+id/list_view"
+        android:fastScrollEnabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" 
+         android:background="@drawable/c"
+        
+        
+        />
+     
+
+ 
+
+
+</LinearLayout>

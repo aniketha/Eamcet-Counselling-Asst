@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+  android:layout_gravity="center"
+    android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:background="@drawable/c">
+    
+
+ <TextView
+
+android:singleLine="true"
+android:ellipsize="marquee"
+android:text="EAMCET COUNSELLING ASSISTANT 2013"
+android:textSize="40px"
+android:textColor="#6d422e"
+android:textStyle="bold"
+android:layout_gravity="center"
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:id="@+id/text"
+
+
+/>
+<Button android:text="SEARCH BY RANK" 
+android:id="@+id/button1" 
+android:textColor="#ffffff"
+android:layout_width="280px" 
+android:layout_height="wrap_content"
+android:textStyle="italic"
+    android:layout_gravity="center"
+    android:background="@drawable/brown_"
+      android:layout_marginTop="110px"
+    />
+
+
+<Button android:text="SEARCH BY COLLEGE"
+ android:id="@+id/button2" 
+ android:textColor="#ffffff"
+ android:layout_width="280px"
+  android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   android:background="@drawable/brown_"
+  android:layout_marginTop="5px"
+   
+  android:textStyle="italic">
+ 
+  </Button>
+
+<Button android:text="HELP"
+ android:id="@+id/button3" 
+ android:textColor="#ffffff"
+ android:layout_width="280px"
+  android:layout_height="wrap_content"
+   android:layout_gravity="center"
+   android:background="@drawable/brown_"
+  android:layout_marginTop="5px"
+   
+  android:textStyle="italic">
+ 
+  </Button>
+
+    
+    
+    
+    
+</LinearLayout>
